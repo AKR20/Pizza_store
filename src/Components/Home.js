@@ -1,15 +1,15 @@
-import './App.css';
+import './Home.css';
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import Header from './Header';
+import Footer from './Footer';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Cart from './Components/Cart';
 // import { Link } from 'react-router-dom';
 
 const baseURL = "https://run.mocky.io/v3/ec196a02-aaf4-4c91-8f54-21e72f241b68";
 
-export default function App() {
+export default function Home() {
   const [pizzas, setPizzas] = useState([]);
   const [error, setError] = useState(null);
   const [showPopup, setShowPopup] = useState(false);
@@ -186,4 +186,3 @@ export default function App() {
   );
   
 }
-
