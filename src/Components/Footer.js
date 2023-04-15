@@ -41,6 +41,7 @@ function Footer() {
         <a href="https://www.twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
         <a href="https://www.instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
 </div>
+<p className='end'>Copyright © 2023 PizzaLicious, Inc.</p>
 {showScroll && (
 <button className="scroll-to-top" onClick={handleScrollToTop}>
 <FontAwesomeIcon icon={faArrowUp} />
