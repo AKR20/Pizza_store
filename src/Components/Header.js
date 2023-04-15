@@ -3,7 +3,6 @@ import './Header.css';
 import logo from './logo.png';
 import { FaShoppingCart } from 'react-icons/fa';
 import './Cart.js'
-import { NavLink } from "react-router-dom";
 
 function Header() {
   return (

@@ -3,9 +3,6 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Cart from './Components/Cart';
-// import { Link } from 'react-router-dom';
 
 const baseURL = "https://run.mocky.io/v3/ec196a02-aaf4-4c91-8f54-21e72f241b68";
 
@@ -13,10 +10,7 @@ export default function App() {
   const [pizzas, setPizzas] = useState([]);
   const [error, setError] = useState(null);
   const [showPopup, setShowPopup] = useState(false);
-  const [cartItems, setCartItems] = useState([]);
   const [quantity, setQuantity] = useState(1);
-  const [selectedPizza, setSelectedPizza] = useState(null);
-  const [vegOnly, setVegOnly] = useState(false);
   const [maxPrice, setMaxPrice] = useState(1000);
   const [showOnlyVeg, setShowOnlyVeg] = useState(false);
   const [sortOrder, setSortOrder] = useState(null);
