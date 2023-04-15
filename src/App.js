@@ -79,7 +79,7 @@ export default function App() {
       <button className="new" onClick={() => setShowOnlyVeg(!showOnlyVeg)}>
         {showOnlyVeg ? "Show all" : "Show Veg only"}
       </button>
-      <button className="new" onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}>
+      <button className="mew" onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}>
         Sort by price {sortOrder === "asc" ? "↓" : "↑"}
       </button>
       <div className="rating-filter">
@@ -126,13 +126,13 @@ export default function App() {
             </p>
 
             <button className="button" onClick={handleAddButtonClick}>
-              Add
+              Taste it !
             </button>
 
 {showPopup && (
   <div className="popup">
     <div className="popup-content">
-      <h2>Customize your pizza</h2>
+      <h2 style={{textAlign: 'center', textDecoration: 'underline'}}>𝐂𝐮𝐬𝐭𝐨𝐦𝐢𝐳𝐞 𝐲𝐨𝐮𝐫 𝐞𝐯𝐞𝐫𝐲 𝐛𝐢𝐭𝐞 🍕</h2>
       <div className="popup-quantity-options">
         <h3>Quantity</h3>
         <div className="popup-quantity-controls">

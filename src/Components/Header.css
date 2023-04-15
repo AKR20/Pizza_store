@@ -1,11 +1,18 @@
 .header {
-  background-color: #2b6ab7;
+  /* background-color: #2b6ab7; */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
   padding: 10px;
+  background-color: rgba(55, 55, 56, 0.744);
+  background-image: url('https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?size=626&ext=jpg');
+  background-blend-mode: darken;
+  opacity: 80%;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
@@ -28,13 +35,16 @@ nav {
 }
 
 .site-title {
-  color: #fff;
   margin: 0;
   padding: 0;
-  font-size: 35px;
-  text-shadow: 2px 2px 2px #000;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #ebe8e8;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 0px;
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(45deg, #fded81, #ece9e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
@@ -52,7 +62,7 @@ nav {
 .nav-links a {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
@@ -74,8 +84,9 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #F7D33C;
+  color: rgb(141, 209, 238);
   text-shadow: 2px 2px 2px #000;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {

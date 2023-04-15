@@ -16,7 +16,7 @@ function Header() {
         <ul className="nav-links">
           <li><a href="#" className="nav-link">Home</a></li>
           <li><a href="#" className="nav-link">About</a></li>
-          <li><a href="#" className="nav-link contact-link">Contact</a></li>
+          <li><a href="/cart" className="nav-link contact-link">Contact</a></li>
           <li><a href="#" className="nav-link cart-icon"><FaShoppingCart /></a></li>
         </ul>
       </nav>
